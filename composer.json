@@ -1,0 +1,26 @@
+{
+    "name": "statickidz/bedca-api",
+    "description": "API wrapper for Spanish Food Composition Database (BEDCA)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "StaticKidz",
+            "email": "statickidz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "StaticKidz\\BedcaAPI\\": "src/"
+        },
+        "psr-4": {
+            "StaticKidz\\BedcaAPI\\": "src/StaticKidz/BedcaAPI/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
