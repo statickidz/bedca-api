@@ -51,7 +51,7 @@ class BedcaClient
      * @param bool $rawXML
      * @return mixed
      */
-    public function getFoodsByGroupId($foodGroupId, $rawXML = false)
+    public function getFoodsInGroup($foodGroupId, $rawXML = false)
     {
         $foodGroupXML = BedcaXMLRequests::getFoodGroupXML($foodGroupId);
 
