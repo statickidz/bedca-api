@@ -16,7 +16,7 @@ Or edit your project's `composer.json` to require `statickidz/bedca-api` and the
 
 ```json
 "require": {
-    "statickidz/bedca-api": "~1.0"
+    "statickidz/bedca-api": "dev-master"
 }
 ```
 
