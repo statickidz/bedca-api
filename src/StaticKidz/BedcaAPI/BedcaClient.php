@@ -13,7 +13,7 @@ use StaticKidz\BedcaAPI\Request\BedcaXMLRequests;
  */
 class BedcaClient
 {
-    private $apiBase = 'http://www.bedca.net/bdpub/procquery.php';
+    private $apiBase = 'https://www.bedca.net/bdpub/procquery.php';
 
     /**
      * @param $foodId
