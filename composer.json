@@ -1,6 +1,7 @@
 {
     "name": "statickidz/bedca-api",
     "description": "API wrapper for Spanish Food Composition Database (BEDCA)",
+    "version": "1.1.0",
     "keywords": ["bedca", "food", "api"],
     "type": "library",
     "license": "MIT",
