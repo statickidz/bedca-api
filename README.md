@@ -24,10 +24,15 @@ Or edit your project's `composer.json` to require `statickidz/bedca-api` and the
 
 #### Init
 ```php
+require __DIR__ . '/vendor/autoload.php';
+
 use StaticKidz\BedcaAPI\BedcaClient;
 
 $client = new BedcaClient();
 ```
+
+#### Demo
+https://phpsandbox.io/n/bedca-api-test-engkv#index.php
 
 #### Get food groups
 ```php
